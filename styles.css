@@ -26,7 +26,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
 }
-.header-content button {
+button {
   border-radius: 5px;
   background: #ff5959;
   margin-top: 30px;
@@ -37,9 +37,58 @@ body {
   border: none;
   cursor: pointer;
 }
-.header-content button:hover {
+button:hover {
   background: gray;
   transition: 0.5s;
+}
+
+.donate-today {
+  text-align: center;
+}
+.donate-today-text h1 {
+  font-size: 45px;
+}
+.donate-today-text p {
+  font-family: "Poppins";
+  font-size: 18px;
+  color: #707070;
+}
+
+.donation-amounts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.donation-amount {
+  font-weight: 700;
+  font-size: 30px;
+  color: #707070;
+  padding: 40px 15px;
+  background: #fafafa;
+  border-radius: 5px;
+  margin: 11px;
+  border: 2px solid white;
+}
+.donation-amount:hover {
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+  color: #ff5959;
+  transition: 0.5s;
+}
+
+.donate-today input {
+  width: 765px;
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #dadada;
+  color: #b3b3b3;
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 28px;
 }
 
 footer {
@@ -47,6 +96,7 @@ footer {
   background: #0b0d17;
   color: #d9dbe1;
   text-align: center;
+  margin-top: 130px;
 }
 footer p {
   color: #ff5959;
