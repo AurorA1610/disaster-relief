@@ -26,7 +26,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
 }
-.header-content button {
+button {
   border-radius: 5px;
   background: #ff5959;
   margin-top: 30px;
@@ -37,9 +37,145 @@ body {
   border: none;
   cursor: pointer;
 }
-.header-content button:hover {
+button:hover {
   background: gray;
   transition: 0.5s;
+}
+
+.donate-today {
+  text-align: center;
+}
+.donate-today-text h1 {
+  font-size: 45px;
+}
+.donate-today-text p {
+  font-family: "Poppins";
+  font-size: 18px;
+  color: #707070;
+}
+
+.donation-amounts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.donation-amount {
+  font-weight: 700;
+  font-size: 30px;
+  color: #707070;
+  padding: 40px 15px;
+  background: #fafafa;
+  border-radius: 5px;
+  margin: 11px;
+  border: 2px solid white;
+}
+.donation-amount:hover {
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+  color: #ff5959;
+  transition: 0.5s;
+}
+
+.donate-today input {
+  width: 765px;
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #dadada;
+  color: #b3b3b3;
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.donation-plan-section {
+  margin: 130px 0px;
+}
+.donation-plan-text {
+  text-align: center;
+}
+.donation-plan-text h1 {
+  font-size: 45px;
+}
+.donation-plan-text p {
+  font-family: "Poppins";
+  font-size: 18px;
+  color: #707070;
+}
+.donation-plans {
+  display: flex;
+  justify-content: center;
+  margin: 0px 130px;
+}
+.donation-plan {
+  border-radius: 5px;
+  padding: 50px 23px;
+  margin: 25px;
+}
+.donation-plan h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.donation-plan p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #707070;
+}
+
+#donation-plan-1 {
+  background: rgba(79, 157, 166, 0.1);
+}
+#donation-plan-2 {
+  background: rgba(255, 89, 89, 0.1);
+}
+#donation-plan-3 {
+  background: #fff4d6;
+}
+
+#donation-plan-1:hover {
+  background: linear-gradient(360deg, #aeaeae 0%, rgba(79, 157, 166, 0.1) 90%);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+#donation-plan-2:hover {
+  background: linear-gradient(360deg, #aeaeae 0%, rgba(255, 89, 89, 0.1) 90%);
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+#donation-plan-3:hover {
+  background: linear-gradient(360deg, #aeaeae 0%, #fff4d6 90%);
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+.how-to-contribute {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 250px 100px 110px;
+}
+
+.contribute-img img {
+  width: 456px;
+  height: 477px;
+  margin: 0px 25px;
+  padding: 0px 20px;
+}
+.contribute-text {
+  padding: 0px 20px;
+  margin: 0px 25px;
+}
+.contribute-text h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+.contribute-text p {
+  font-family: "Poppins";
+  font-size: 18px;
+  color: #707070;
 }
 
 footer {
@@ -47,6 +183,7 @@ footer {
   background: #0b0d17;
   color: #d9dbe1;
   text-align: center;
+  margin-top: 130px;
 }
 footer p {
   color: #ff5959;
