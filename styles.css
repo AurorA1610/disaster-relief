@@ -138,18 +138,18 @@ button:hover {
 
 #donation-plan-1:hover {
   background: linear-gradient(360deg, #aeaeae 0%, rgba(79, 157, 166, 0.1) 90%);
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 0.5s;
 }
 #donation-plan-2:hover {
   background: linear-gradient(360deg, #aeaeae 0%, rgba(255, 89, 89, 0.1) 90%);
   transition: 0.5s;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 #donation-plan-3:hover {
   background: linear-gradient(360deg, #aeaeae 0%, #fff4d6 90%);
   transition: 0.5s;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .how-to-contribute {
